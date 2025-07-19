@@ -51,8 +51,11 @@ pip install -r requirements.txt
 
 ## Dataset
 Due to GitHub's file limit, you may need to download the dataset manually from:
+
 https://drive.google.com/file/d/17brKc8PfE7_99IeWj0t2ShLdu5rcklYx/view?usp=sharing
+
 The original dataset is from:
+
 https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset
 
 After downloading, just organize the image folder as shown in project structure part.
@@ -90,5 +93,7 @@ Faculty of Engineering, The University of Sydney, Australia
 
 ## Acknowledgements
 This project was build on the foundation source code as part of a group study on distributed learning, under the course.
+
 **Distributed Machine Learning: Foundations and Algorithms**.
+
 And I made a major contribution to the original source code.

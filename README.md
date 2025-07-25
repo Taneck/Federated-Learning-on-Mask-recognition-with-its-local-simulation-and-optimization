@@ -1,8 +1,7 @@
-# Federated Learning on Mask recognition with its local simulation and optimization
+# Federated Mask Recognition
 
-This repository contains the code for my research paper:
+This repository contains the code for my own research paper:
 
-**"Federated Learning on Mask recognition with its local simulation and optimization"**  
 Status: Under Review
 
 ---
@@ -44,10 +43,18 @@ The project supports multiple training configurations with different numbers of 
     └── unmasked/ # Images without masks
 ```
 
+---
+
 ## Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+You may also need to run this command to check your GPU availabiliy
+```bash
+python -c "import torch; print(torch.cuda.is_available())
+```
+
+---
 
 ## Dataset
 Due to GitHub's file limit, you may need to download the dataset manually from:
@@ -60,36 +67,52 @@ https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset
 
 After downloading, just organize the image folder as shown in project structure part.
 
+---
+
 ## How to run
 **Make sure you have put the image data correctly in the folder**
 ```bash
 python run_all.py
 ```
 
+---
+
 ## Evaluate the final model
 ```bash
 python evaluate_model.py
 ```
+
+---
 
 ## Launch GUI for real-time prediction
 ```bash
 python predict_gui.py
 ```
 
+---
+
 ## Statistical Evaluation
 ```bash
 python statistics_test.py
 ```
 
+---
+
 ## Results
 The results can been seen in generated plots and results/ folder
+
+---
 
 ## License
 This repository is protected under a custom temporary license until the paper is officially published.
 
+---
+
 ## Author
 **Liukai Tang**
 Faculty of Engineering, The University of Sydney, Australia
+
+---
 
 ## Acknowledgements
 This project was build on the foundation source code as part of a group study on distributed learning, under the course.
